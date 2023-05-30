@@ -9,17 +9,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@helia/strings": "^1.0.0",
+    "@types/js-cookie": "^3.0.3",
     "@types/node": "20.2.5",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
     "autoprefixer": "10.4.14",
+    "cids": "^1.1.9",
+    "dotenv": "^16.0.3",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.4",
+    "everscale-inpage-provider": "^0.3.61",
+    "everscale-standalone-client": "^2.1.19",
+    "firebase": "^9.22.1",
+    "firebase-admin": "^11.8.0",
+    "helia": "^1.1.5",
+    "js-cookie": "^3.0.5",
+    "multiformats": "^11.0.2",
     "next": "13.4.4",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.1.1",
     "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
-  }
+    "typescript": "5.0.4",
+    "venom-connect": "^1.0.20"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
